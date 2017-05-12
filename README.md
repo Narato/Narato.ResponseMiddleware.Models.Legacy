@@ -1,5 +1,5 @@
-# Narato.ResponseMiddleware.Models
-This library contains the core models for use in the narato stack
+# Narato.ResponseMiddleware.Models.Legacy
+This library contains the legacy models for use in the narato stack
 
 
 GIT

@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0.0-*",
   "title": "Narato.ResponseMiddleware.Models.Legacy",
   "description": "Legacy models to keep the API contracts for older projects untouched, while still using the new Narato stack",
@@ -11,7 +11,8 @@
       "type": "platform"
     },
     "Microsoft.AspNetCore.Mvc": "1.0.0",
-    "NETStandard.Library": "1.6.0"
+    "NETStandard.Library": "1.6.0",
+    "Narato.ResponseMiddleware.Models": "1.0.0"
   },
 
   "frameworks": {
