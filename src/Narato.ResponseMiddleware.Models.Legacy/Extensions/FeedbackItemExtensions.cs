@@ -1,6 +1,6 @@
 ﻿using Narato.ResponseMiddleware.Models.Legacy.Models;
 using Narato.ResponseMiddleware.Models.Models;
-using System.Collections;
+using Narato.ResponseMiddleware.Models.Models.Interfaces;
 using System.Collections.Generic;
 
 namespace Narato.ResponseMiddleware.Models.Legacy.Extensions
@@ -30,10 +30,12 @@ namespace Narato.ResponseMiddleware.Models.Legacy.Extensions
         /// <typeparam name="T">The type of the messages</typeparam>
         /// <param name="modelValidationDictionary">the dictionary to convert</param>
         /// <returns>the converted list of feedbackItems</returns>
-        public static IEnumerable<FeedbackItem> ToFeedbackItems<T>(this ModelValidationDictionary<T> modelValidationDictionary)
+        public static IEnumerable<FeedbackItem> ToFeedbackItems<T>(this IModelValidationDictionary<T> modelValidationDictionary)
         {
+            // TODO: is the line below safe?... I'm not sure :-)
+            var typedModelValidationDictionary = modelValidationDictionary as ModelValidationDictionary<T>;
             var feedbackList = new List<FeedbackItem>();
-            foreach (var messageList in modelValidationDictionary)
+            foreach (var messageList in typedModelValidationDictionary)
             {
                 foreach (var message in messageList.Value)
                 {
