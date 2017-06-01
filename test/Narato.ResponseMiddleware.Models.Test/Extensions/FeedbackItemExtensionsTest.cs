@@ -8,7 +8,6 @@ namespace Narato.ResponseMiddleware.Models.Test.Extensions
 {
     public class FeedbackItemExtensionsTest
     {
-
         [Fact]
         public void StringToFeedbackItemTest()
         {
