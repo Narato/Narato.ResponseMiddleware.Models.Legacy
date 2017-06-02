@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1-*",
+  "version": "1.0.2-*",
   "title": "Narato.ResponseMiddleware.Models.Legacy",
   "description": "Legacy models to keep the API contracts for older projects untouched, while still using the new Narato stack",
   "authors": [ "Narato - http://www.narato.be" ],
