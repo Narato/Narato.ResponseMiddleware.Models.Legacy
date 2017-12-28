@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4FFD7879-13C6-4E52-BA4D-CAC43477BF6B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FAABB7BC-1517-45A6-BA4C-25A77D2880DA}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Narato.ResponseMiddleware.Models.Legacy", "src\Narato.ResponseMiddleware.Models.Legacy\Narato.ResponseMiddleware.Models.Legacy.xproj", "{3D006EF5-5E36-48E5-80D6-C7862282ACEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Narato.ResponseMiddleware.Models.Legacy", "src\Narato.ResponseMiddleware.Models.Legacy\Narato.ResponseMiddleware.Models.Legacy.csproj", "{3D006EF5-5E36-48E5-80D6-C7862282ACEF}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Narato.ResponseMiddleware.Models.Test", "test\Narato.ResponseMiddleware.Models.Test\Narato.ResponseMiddleware.Models.Test.xproj", "{88A124DD-6D26-4BFB-BD4A-F4801D329C83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Narato.ResponseMiddleware.Models.Test", "test\Narato.ResponseMiddleware.Models.Test\Narato.ResponseMiddleware.Models.Test.csproj", "{88A124DD-6D26-4BFB-BD4A-F4801D329C83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,5 +32,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3D006EF5-5E36-48E5-80D6-C7862282ACEF} = {4FFD7879-13C6-4E52-BA4D-CAC43477BF6B}
 		{88A124DD-6D26-4BFB-BD4A-F4801D329C83} = {FAABB7BC-1517-45A6-BA4C-25A77D2880DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {472C9D2C-C07B-4FEC-88B4-AF6D91212FED}
 	EndGlobalSection
 EndGlobal
