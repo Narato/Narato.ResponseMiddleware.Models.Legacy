@@ -4,7 +4,7 @@
     <Description>Legacy models to keep the API contracts for older projects untouched, while still using the new Narato stack</Description>
     <AssemblyTitle>Narato.ResponseMiddleware.Models.Legacy</AssemblyTitle>
     <NeutralLanguage>en-us</NeutralLanguage>
-    <VersionPrefix>2.0.1</VersionPrefix>
+    <VersionPrefix>2.0.2</VersionPrefix>
     <Authors>Narato - http://www.narato.be</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Narato.ResponseMiddleware.Models.Legacy</AssemblyName>
@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.0" />
-    <PackageReference Include="Narato.ResponseMiddleware.Models" Version="2.0.2" />
+    <PackageReference Include="Narato.ResponseMiddleware.Models" Version="2.0.3" />
   </ItemGroup>
 
 </Project>
